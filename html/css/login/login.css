@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75..125,300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: var(--font_fredoka);
+    text-decoration: none; list-style: none; 
+}
+
+:root{
+    --font_inter:"Inter", sans-serif;
+    --font_jua:"jua", sans-serif;
+    --font_fredoka: "Fredoka", sans-serif;
+    --font_poppins:  "Poppins", sans-serif;
+    --Rosa:#fe90a8;
+    --Azul:#c5caff;
+    --Amarelo:#fef5a6;
+    --Roxo:#f7d9e3;
+    --Verde:#d5f09c;
+}
+
+header{
+    background-color: #FEF5A6;
+    width: auto;
+    height: 50px;
+    overflow: hidden;
+}
+
+.secao-inicial{
+    display: flex;
+    margin: 1px 5%;
+    height: max-content;
+    background-color: #fe90a8;
+}
+
+.bi-instagram{
+    float: right;
+    margin-left: 10px;
+    font-size: 1.6rem;
+    background-color: #FF90A8;
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px 0px #4d4a4a;
+    color: #FEF5A6;
+}
+
+.vazio{
+    width: 40%;
+    height: auto;
+    background-color:white;
+}
+.bi-whatsapp{
+    float: left;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    background-color: #FF90A8;
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px 0px #4d4a4a;
+    padding: 6px;
+    color: #FEF5A6;
+}
+
+.logo {
+    align-items: center;
+    justify-items: center;
+   background-color:white;
+
+   flex-wrap: nowrap;
+}
+.bilingue{
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.bilingue img{
+    align-items: center;
+    background-color: white;
+}
+a .bi-instagram{
+    background-color: var(--Rosa);
+}
+a.link{
+    color: #FF90A8;
+}
+.login{
+    color: var(--Rosa);
+    background-color: white;
+    width: 38%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 17px;
+    flex-wrap: nowrap;
+}
+
+.bi-person-fill,
+.bi-cart-fill,
+.bi-heart-fill{
+    font-size: 1.9rem;
+
+}
+.menu-cont{
+    margin: 0 5%;
+}
+
+.dentro-itens ul{
+    background-color: #D5F09C;
+    color: #6B6A6A;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+    font-family: 'poppins', sans-serif;
+}
+
+a.item-a{
+    color: #6B6A6A;
+}
+
+#text-log{
+    color: var(--Rosa);
+    text-align: center;
+    font-family: var(--font_fredoka);
+    font-size: 2.4rem;
+    padding: 30px;
+}
+.central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.label-1{ 
+    margin: 15px 0;
+    font-size: 1.5rem;
+    font-family: var(--font_fredoka);
+}
+input,.email-senha{
+    border-radius: 8px;
+    margin: 5px;
+    font-size: 20px;     /* Tamanho da letra */
+    background-color: var(--Amarelo);
+    width: 350px;          /* Largura fixa */
+    height: 35px;          /* Altura fixa */
+    border: none;
+    padding: 5px 10px;     /* Espaçamento interno */
+    box-sizing: border-box; /* Garante que padding não estique o input */
+}
+
+input #email{
+    font-family: var(--font_inter);
+    font-weight: 100;
+}
+#senha::placeholder{
+    font-size: 2px;
+}
+input::placeholder{
+  font-size: 20px;
+   
+}
+
+a#remember-password{
+    color: rgb(93, 192, 192);
+    font-size: 1rem;
+    margin: 10px;
+}
+
+#button-1{
+    border: none;
+    font-size: 1rem;
+    width: 15%;
+    padding: 8px;
+    border-radius: 20px;
+    margin-top: 40px;
+    font-family: var(--font_poppins);
+    font-weight: 600;
+    background-color: var(--Amarelo);
+    
+}
+
+#button-2{
+    font-size: 20px;
+    border: none;
+    width: 15%;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 20px;
+    font-family: var(--font_poppins);
+    font-weight: 600;
+    background-color: var(--Amarelo);
+}
+
+a,#button-1{
+    color: var(--Rosa);
+}

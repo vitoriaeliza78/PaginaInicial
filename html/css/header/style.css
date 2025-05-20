@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0%; padding: 0%; text-decoration: none; list-style: none; 
+}
+
+header{
+    background-color: #FEF5A6;
+    width: auto;
+    height: 50px;
+    gap: 7px;
+}
+
+.conteiner{
+    margin: 0 auto;
+    padding: 10px 5%;
+    justify-content: center;
+}
+
+.secao-inicial{
+    display: flex;
+    margin: 0 5%;
+}
+
+.bi-instagram{
+    font-size: 1.5rem;
+    background-color: #FF90A8;
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px 0px #4d4a4a;
+    padding: 5px;
+    margin-left: 10px;
+    color: #FEF5A6;
+}
+
+.vazio{
+    width: 40%;
+    height: 70px;
+    background-color:white;
+}
+.bi-whatsapp{
+    font-size: 1.5rem;
+    background-color: #FF90A8;
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px 0px #4d4a4a;
+    padding: 6px;
+    color: #FEF5A6;
+}
+
+.logo {
+    align-items: center;
+    justify-items: center;
+   background-color:white;
+
+   flex-wrap: nowrap;
+}
+.bilingue{
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.bilingue img{
+    align-items: center;
+    background-color: white;
+}
+a.link{
+    color: #FF90A8;
+}
+.login{
+    color: #FF90A8;
+    background-color: white;
+    width: 38%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 17px;
+    margin-top: 10px;
+    flex-wrap: nowrap;
+}
+
+.bi-person-fill,
+.bi-cart-fill,
+.bi-heart-fill{
+    font-size: 1.9rem;
+
+}
+.menu-cont{
+    margin: 0 5%;
+}
+
+.dentro-itens ul{
+    background-color: #D5F09C;
+    color: #6B6A6A;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+    font-family: 'poppins', sans-serif;
+}
+
+a.item-a{
+    color: #6B6A6A;
+}
