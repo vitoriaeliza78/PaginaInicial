@@ -20,16 +20,6 @@ function apareceCarrinho(){
   car_lateral.style.display='block';
 }
 
-function apareceCarrinho(imagemURL, nome){
- let carrinho = document.getElementById("iten-carrinho")
- let item = documento.createElement('div')
- item.classList.add('iten-carrinho')
- item.innerHTML=
-  <img src="./img/produto.jpg" alt="Produto 1" style="width: 50px; height: 50px;"></img>;
-  <p>Lápis de cor</p>;
-  <p>R$ 32,00</p>;
-  <button onClick="removerItem(this)"></button>
-}
 
 function fecharCarrinho(){
   let x = document.getElementById("sideBar")
