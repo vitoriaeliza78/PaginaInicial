@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jua&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fffef6;
+}
+
+.container-produtos {
+  background-color: #fffef6;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 30px;
+  align-items: center;
+}
+.conjunto-cards-1 {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.conjunto-cards-2 {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  width: 100%;
+}
+.conjunto-cards-3 {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#produto-card {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  color: #ef6383;
+  padding: 6px;
+  font-family: 12px;
+}
+
+#preco-card {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #464646;
+  font-weight: 800;
+}
+#icon-star .button-comprar{
+  cursor: pointer;
+  transition: transform 5s ease;
+}
+input.button-comprar:hover{
+  transform: scale(1.3);
+  background-color: white;
+  color: #ff90a8;
+  border: 1px solid #ef6383;
+}
+.card input {
+  margin-top: 10px;
+  padding: 5px;
+  width: 50%;
+  border-radius: 20px;
+  border-style: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  background-color: #ff90a8;
+  color: white;
+  cursor: pointer;
+}
+
+#icon-star {
+  color: #828282;
+  cursor: pointer;
+}
+.container-produtos h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 100;
+  color: #ff90a8;
+  border-radius: 15px;
+  font-family: "Jua", sans-serif;
+  background-color: #faf3a8;
+  width: 14%;
+  padding: 6px;
+}
+#mudar-pagina{
+  display: flex;
+  position: relative;
+  right: 15px;
+  width: 15%;
+  justify-content: space-around;
+  margin-top: 50px;
+  
+}
+
+#mudar-pagina p{
+  border: solid 1px rgb(255, 94, 142) ;
+  padding: 5px 10px;
+  color: rgb(68, 67, 68);
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+#arrow-1{
+  position: relative;
+  margin-top: 6px;
+  left: 5px;
+  color: #ef6383;
+  cursor: pointer;
+}
+
+#arrow-2{
+  position: relative;
+  margin-top: 6px;
+  right: 5px;
+  color: #ef6383;
+  cursor: pointer;
+}
+
+.cards, .cards2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+   
+ 
+}
+
+.cards img, .cards2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; 
+}
+
+.produtos-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -370px ;
+    gap: 100px;
+    padding: 30px;
+    align-items: center;  
+    bottom: 35rem;
+   
+   
+}
+
+.produtos-container h1{
+    font-family: 'Sacramento', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 44px;
+    color:  #EDE2D0;
+    font-weight: 100;
+}
+#box-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+#box-container-2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+
+
+.cards2-3 img{
+    
+    border: 2px solid #A18255; 
+    border-radius: 67px;
+}
+
+#cart-icon.cart-item-count{
+  position: absolute;
+  top: 0%;
+  right: -6px;
+  height: 20px;
+  background: #e35f26;
+  border-radius: 50%;
+  font-size: 12px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

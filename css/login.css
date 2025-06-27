@@ -3,8 +3,8 @@
 *{
     margin: 0%;
     padding: 0%;
-    font-family: var(--font_fredoka);
-    text-decoration: none; list-style: none; 
+    text-decoration: none;
+    list-style: none; 
 }
 
 :root{
@@ -17,106 +17,6 @@
     --Amarelo:#fef5a6;
     --Roxo:#f7d9e3;
     --Verde:#d5f09c;
-}
-
-header{
-    background-color: #FEF5A6;
-    width: auto;
-    height: 50px;
-    overflow: hidden;
-}
-
-.secao-inicial{
-    display: flex;
-    margin: 1px 5%;
-    height: max-content;
-    background-color: #fe90a8;
-}
-
-.bi-instagram{
-    float: right;
-    margin-left: 10px;
-    font-size: 1.6rem;
-    background-color: #FF90A8;
-    border-radius: 20px;
-    box-shadow: 0px 2px 3px 0px #4d4a4a;
-    color: #FEF5A6;
-}
-
-.vazio{
-    width: 40%;
-    height: auto;
-    background-color:white;
-}
-.bi-whatsapp{
-    float: left;
-    margin-left: 20px;
-    font-size: 1.5rem;
-    background-color: #FF90A8;
-    border-radius: 20px;
-    box-shadow: 0px 2px 3px 0px #4d4a4a;
-    padding: 6px;
-    color: #FEF5A6;
-}
-
-.logo {
-    align-items: center;
-    justify-items: center;
-   background-color:white;
-
-   flex-wrap: nowrap;
-}
-.bilingue{
-    padding: 10px;
-    width: 100%;
-    align-items: center;
-    justify-items: center;
-}
-
-.bilingue img{
-    align-items: center;
-    background-color: white;
-}
-a .bi-instagram{
-    background-color: var(--Rosa);
-}
-a.link{
-    color: #FF90A8;
-}
-.login{
-    color: var(--Rosa);
-    background-color: white;
-    width: 38%;
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
-    padding: 17px;
-    flex-wrap: nowrap;
-}
-
-.bi-person-fill,
-.bi-cart-fill,
-.bi-heart-fill{
-    font-size: 1.9rem;
-
-}
-.menu-cont{
-    margin: 0 5%;
-}
-
-.dentro-itens ul{
-    background-color: #D5F09C;
-    color: #6B6A6A;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 10px 0;
-    font-family: 'poppins', sans-serif;
-}
-
-a.item-a{
-    color: #6B6A6A;
 }
 
 #text-log{
@@ -176,22 +76,100 @@ a#remember-password{
     font-family: var(--font_poppins);
     font-weight: 600;
     background-color: var(--Amarelo);
-    
+    transition: transform 2s ease;
 }
 
+#button-1:hover{
+    background-color: white;
+    transform: scale(1.1);
+    border: 1px solid #fe90a8;
+}
 #button-2{
-    font-size: 20px;
     border: none;
     width: 15%;
-    margin-bottom: 10px;
+    margin: 20px 0;
     font-size: 1rem;
     padding: 8px;
     border-radius: 20px;
     font-family: var(--font_poppins);
     font-weight: 600;
     background-color: var(--Amarelo);
+
 }
 
+#button-2:hover{
+    background-color: white;
+    transform: scale(1.1);
+    border: 1px solid #fe90a8;
+}
 a,#button-1{
     color: var(--Rosa);
+}
+
+@media (max-width:1154px){
+    #button-2{
+        font-size: small;
+    }
+}
+@media (max-width:957px){
+    #button-1{
+        font-size: small;
+    }
+    #button-2{
+        font-size: x-small;
+    }
+}
+@media (max-width: 690px){
+    
+    .conteiner #whatsapp-ag{
+        font-size: medium;
+    }
+
+    .conteiner #instagram{
+        font-size: medium;
+    }
+    h1#text-log{
+      font-size: large;
+    }
+
+    .login .bi-person-fill{
+        font-size:large;
+    }
+    .login .bi-cart-fill{
+        font-size:large;
+    }
+    .login .bi-heart-fill{
+        font-size: large;
+    }
+    li .item-a{
+        font-size: 0.7em;
+    }
+
+    .label-1{
+     font-size: smaller;
+    }
+    button#button-1{
+        width: 30%;
+        height: 30px;
+        padding: 2px;
+        margin-bottom: 10px;
+    }
+    button#button-2{
+       width: 30%;
+       margin-top: 10px;
+    }
+    .father .primeiro-bloco ,.segundo-bloco
+    ,.terceiro-bloco{
+        font-size: x-small;
+    }
+    .father .texto-1{
+        font-size: small;
+    }
+    .father #devolucao{
+        font-family: var(--font_inter);
+        font-size: small;
+    }
+    .father #insta-final{
+        font-size: small;
+    }
 }
