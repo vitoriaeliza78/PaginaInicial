@@ -23,14 +23,25 @@
                         <img src="bilingue.svg" alt="bilingue blend" class="bilingue">
                     </div>
                     <div class="login">
-                        <a href="./login.html" class="link"><i class="bi bi-person-fill"></a></i>
+                        <a href="login.html" class="link"><i class="bi bi-person-fill"></a></i>
                         <div id="cart-icon">
                         <i class="bi bi-cart-fill" id="iconeCarrinho" onclick="apareceCarrinho()"></i>
                         <span id="cart-item-count"></span>
                     </div>
-                        <a href="#favoritos" class="link"><i class="bi bi-heart-fill"></a></i>
+                        
+                     <!--ÍNICIO CARRINHO LATERAL-->
+                    <div id="sideBar">
+                        <div class="car-head">
+                          <h2 id="lat-car">Meu Carrinho</h2>
+                          <i class="bi bi-x-lg" id="fecharCarrinho" onclick="fecharCarrinho()"></i>
+                        </div>
+                        <div id="iten-carrinho"></div>
+                        <div id="botoes">
+                          <button class="btn-carrinho" id="continuar"><a href="./index.html" id="con-a">CONTINUAR COMPRANDO</a></button>
+                          <button class="btn-carrinho"><a href="./carrinho.html" id="final-btn">FINALIZAR COMPRA </a><i class="bi bi-arrow-right-circle-fill"></i></button>
+                        </div> 
                     </div>
-                    
+                    <!--FINAL CARRINHO LATERAL-->
                 </section>
         <nav>
                     <div class="menu-cont">
