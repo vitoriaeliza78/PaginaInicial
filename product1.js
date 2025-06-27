@@ -1,29 +1,19 @@
-
 let count = 0;
 
 function COMPRAR() {
-  count += 1 //adiciona 1 a mais no count//
-  let carrinho = document.getElementById("cart-item-count");
-  carrinho.style.display="block";
-  carrinho.innerText=count
-  mostarQntd(count)
-  carrinho.style.display='flex';
+  count += 1;
+  const carrinho = document.getElementById("cart-item-count");
+  carrinho.style.display = "block";
+  carrinho.innerText = count;
 }
 
-function mostarQntd(count) {
-  count_compras = document.getElementById("cart-item-count")
-  count_compras.innerHTML = count
+function apareceCarrinho() {
+  let carrinhoLateral = document.getElementById("sideBar")
+  carrinhoLateral.style.display = "block";
 }
 
-function apareceCarrinho(){
-  let car_lateral = document.getElementById("sideBar")
-  car_lateral.style.display='block';
-}
-
-
-function fecharCarrinho(){
-  let x = document.getElementById("sideBar")
-  x.style.display='none';
+function fecharCarrinho() {
+  document.getElementById("sideBar").style.display = "none";
 }
 function mostrar(pergunta) {
   const resposta = pergunta.nextElementSibling;
